@@ -1,21 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-        div.sticky {
-            position: -webkit-sticky;
-            position: sticky;
-            top: 0;
-            background-color: yellow;
-            padding: 50px;
-            font-size: 20px;
-            z-index: 1;
-          }
-        </style>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-        <title>HOTEL RAMASWAMI - Our Menus</title>
+        <title>HOTEL RAMASWAMI</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -34,21 +23,43 @@
     </head>
 
 <body>
-    <div class="header" style="background-color:Orange;"  >
+    <div class="header" style="background-color:Orange;">
         <div class="container">
-            <a href="#" class="navbar-brand scroll-top" style="font-size:27px;">HOTEL RAMASWAMI</a>
-            
+            <a href="#" class="navbar-brand scroll-top">HOTEL RAMASWAMI</a>
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!--/.navbar-header-->
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Our Menus</a></li>
+                        
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!--/.navbar-collapse-->
+            </nav>
+            <!--/.navbar-->
         </div>
         <!--/.container-->
     </div>
     <!--/.header-->
 
-    <section class="page-heading">
+
+    <section class="banner">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <h1>Our Menus</h1>
-                    <p>With unique recipes</p>
+                <div class="col-md-6 col-md-offset-3">
+                    <h4>Here you can find delecious foods</h4>
+                    <h2>HOTEL RAMASWAMI</h2>
+                    <p>A famaly restorent</p>
                 </div>
             </div>
         </div>
@@ -56,48 +67,30 @@
 
 
 
-    <section class="breakfast-menu">
+    <section class="cook-delecious">
         <div class="container">
             <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="breakfast-menu-content">
-                        <div class="row">
-                            <div class="middle">
-                                <h2>VEG SNACKS</h2>
-                                <div id="owl-breakfast" class="owl-carousel owl-theme">
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/MUSHROOM MANCHURIYA.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 200.00</div>
-                                            <div class="text-content">
-                                                <h4>MUSHROOM MANCHURIYA</h4>
-                                                <p>It is a class of Indian Chinese dish</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/CHILLI MANCHURIYA.png" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 200.00</div>
-                                            <div class="text-content">
-                                                <h4>CHILLI MANCHURIYA</h4>
-                                                <p>A quite spice food</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/PANNER 65.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 220.00</div>
-                                            <div class="text-content">
-                                                <h4>PANNER 65</h4>
-                                                <p>It is a spicy and tangy dish that is made by marinating cubes of paneer (Indian cottage cheese)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="col-md-3 col-md-offset-1">
+                    <div class="first-image">
+                        <img src="img/OMLET.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cook-content">
+                        <h4>We cook delecious</h4>
+                        <div class="contact-content">
+                            <span>You can call us on:</span>
+                            <h6>+ 1234 567 8910</h6>
+                        </div> 
+                        <span>or</span>
+                        <div class="primary-white-button">
+                            <a href="#" class="scroll-link" data-id="book-table">Reserve a table</a>
                         </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="second-image">
+                        <img src="img/CHICKEN 65.jpeg" alt="">
                     </div>
                 </div>
             </div>
@@ -106,509 +99,39 @@
 
 
 
-    <section class="lunch-menu">
+    <section class="services">
         <div class="container">
             <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="lunch-menu-content">
-                        <div class="row">
-                            <div class="middle">
-                                <h2>NON-VEG SNACKS</h2>
-                                <div id="owl-lunch" class="owl-carousel owl-theme">
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/CHICKEN FRY.png" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 180.00</div>
-                                            <div class="text-content">
-                                                <h4>CHICKEN FRY</h4>
-                                                <p>It involves marinating chicken pieces in a blend of spices and then frying until golden and crispy.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/CHICKEN ROAST.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 200.00</div>
-                                            <div class="text-content">
-                                                <h4>CHICKEN ROAST</h4>
-                                                <p>Chicken roast is a classic dish that is perfect for any special occasion or family dinner. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/CHILLI CHICKEN.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 220.00</div>
-                                            <div class="text-content">
-                                                <h4>CHILLI CHICKEN</h4>
-                                                <p>Chilli chicken is a popular Indo-Chinese dish </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/CHICKEN 65.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 220.00</div>
-                                            <div class="text-content">
-                                                <h4>CHICKEN 65</h4>
-                                                <p>Chicken 65 is a popular Indian appetizer or snack that is made with bite-sized pieces of chicken that are marinated in a spicy and tangy.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/loose prawns.png" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 320.00</div>
-                                            <div class="text-content">
-                                                <h4>LOOSE PROWNS</h4>
-                                                <p>"Loose prawns" is not a common term in cooking, but it might refer to raw prawns or shrimp that are not held together tightly or are separated from each other.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <a href="menu.html">
+                        <img src="img/DOSA.jpeg" alt="Breakfast">
+                        <h4>Breakfast</h4>
+                        </a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="dinner-menu">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="dinner-menu-content">
-                        <div class="row">
-                            <div class="middle">
-                                <h2>NON VEG CURRYS</h2>
-                                <div id="owl-dinner" class="owl-carousel owl-theme">
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/CHICKEN CURRY.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 180.00</div>
-                                            <div class="text-content">
-                                                <h4>CHICKEN CURRY</h4>
-                                                <p>It can be made in various ways depending on the region and personal preference. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/NATU KODI CURRY.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 300.00</div>
-                                            <div class="text-content">
-                                                <h4>NATU KODI CURRY</h4>
-                                                <p>Natu Kodi Curry is a spicy and flavorful chicken curry from the Andhra Pradesh region of India.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/MUTTON CURRY.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 350.00</div>
-                                            <div class="text-content">
-                                                <h4>MUTTON CURRY</h4>
-                                                <p> It can be made in various ways depending on the region and personal preference.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/breakfast_item.jpg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 300.00</div>
-                                            <div class="text-content">
-                                                <h4>SUNDAY SPECIAL CHICKEN CURRY</h4>
-                                                <p>...</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/KORRAMEENU PULLUSU.png" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 180.00</div>
-                                            <div class="text-content">
-                                                <h4>KORRAMEENU PULLUSU</h4>
-                                                <p>2 PEACES -- It is a spicy and tangy curry that goes well with steamed rice or roti. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/KORRAMEENU PULLUSU2.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 330.00</div>
-                                            <div class="text-content">
-                                                <h4>KORRAMEENU PULLUSU</h4>
-                                                <p>4 PICES -- It is a spicy and tangy curry that goes well with steamed rice or roti. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/PRAWNS CURRY.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 300.00</div>
-                                            <div class="text-content">
-                                                <h4>PRAWNS CURRY</h4>
-                                                <p>Prawns curry is a delicious and flavorful dish that is popular in many coastal regions around the world. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/EGG CURRY.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 120.00</div>
-                                            <div class="text-content">
-                                                <h4>EGG CURRY</h4>
-                                                <p>Egg curry is a simple and delicious dish that can be prepared quickly and easily.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/OMLET.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 50.00</div>
-                                            <div class="text-content">
-                                                <h4>OMLET (Double egg)</h4>
-                                                <p>An omelet is a simple and quick breakfast dish that can be made in just a few minutes.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/CHICKEN BONELESS CURRY.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 220.00</div>
-                                            <div class="text-content">
-                                                <h4>CHICKEN BONELESS CURRY</h4>
-                                                <p> Its specialty lies in the use of boneless chicken which makes it easier and quicker to cook compared to the traditional chicken curry that uses bone-in chicken.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/CHICKEN MOGHALAI CURRY.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 250.00</div>
-                                            <div class="text-content">
-                                                <h4>CHICKEN MOGHALAI CURRY</h4>
-                                                <p>Chicken Moghlai Curry is a rich and creamy curry that has its roots in Mughlai cuisine, which is a blend of Indian and Persian culinary traditions.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/CHICKEN DILKUSH CURRY.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 260.00</div>
-                                            <div class="text-content">
-                                                <h4>CHICKEN DILKUSH CURRY</h4>
-                                                <p>It is made with bone-in chicken and a blend of spices that are roasted and ground to create a delicious masala paste.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <a href="menu.html">
+                        <img src="img/CHICKEN DILKUSH BIRYANI.jpeg" alt="Lunch">
+                        <h4>Lunch</h4>
+                        </a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="biryani-menu">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="biryani-menu-content">
-                        <div class="row">
-                            <div class="middle">
-                                <h2>BIRYANIS</h2>
-                                <div id="owl-biryani" class="owl-carousel owl-theme">
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/CHICKEN DUM BIRYANI.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 200.00</div>
-                                            <div class="text-content">
-                                                <h4>CHICKEN DUM BIRYANI</h4>
-                                                <p>Chicken Dum Biryani is a popular and flavorful dish that originated in India.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/CHICKEN FRIED BIRYANI.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 200.00</div>
-                                            <div class="text-content">
-                                                <h4>CHICKEN FRIED BIRYANI</h4>
-                                                <p> In this dish, the marinated chicken is fried separately and then added to the cooked rice to create a layered biryani with a crispy and flavorful chicken topping.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/CHICKEN BONELESS BIRYANI.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 250.00</div>
-                                            <div class="text-content">
-                                                <h4>CHICKEN BONELESS BIRYANI</h4>
-                                                <p>Chicken Boneless Biryani is a popular variation of the classic Chicken Biryani.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/CHICKEN MOGHALAI BIRYANI.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 260.00</div>
-                                            <div class="text-content">
-                                                <h4>CHICKEN MOGHALAI BIRYANI</h4>
-                                                <p>It originating from the Mughlai cuisine of the Indian subcontinent.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/CHICKEN DILKUSH BIRYANI.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 270.00</div>
-                                            <div class="text-content">
-                                                <h4>CHICKEN DILKUSH BIRYANI</h4>
-                                                <p>Chicken Dilkush Biryani is a popular biryani variety from the South Indian state of Tamil Nadu.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/MUTTON FRIED PIECE BIRYANI.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 400.00</div>
-                                            <div class="text-content">
-                                                <h4>MUTTON FRIED PIECE BIRYANI</h4>
-                                                <p>The marinated mutton pieces are fried and then cooked with rice and spices.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/PRAWNS BIRYANI.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 350.00</div>
-                                            <div class="text-content">
-                                                <h4>PRAWNS BIRYANI</h4>
-                                                <p>It is a popular seafood biryani dish in India and is enjoyed by seafood lovers.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <a href="menu.html">
+                        <img src="img/EGG KEEMA.jpeg" alt="Dinner">
+                        <h4>Dinner</h4>
+                        </a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="rice-menu">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="rice-menu-content">
-                        <div class="row">
-                            <div class="middle">
-                                <h2>RICE BOWL</h2>
-                                <div id="owl-rice" class="owl-carousel owl-theme">
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/CHICKEN FRIED RICE.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 200.00</div>
-                                            <div class="text-content">
-                                                <h4>CHICKEN FRIED RICE</h4>
-                                                <p>Chicken fried rice can be enjoyed as a main dish or as a side dish with other Chinese dishes.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/VEG FRIED RICE.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 150.00</div>
-                                            <div class="text-content">
-                                                <h4>VEG FRIED RICE</h4>
-                                                <p> Veg fried rice is a flavorful and wholesome dish that can be enjoyed as a main dish or as a side dish with other Chinese dishes.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/JEERA RICE.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 150.00</div>
-                                            <div class="text-content">
-                                                <h4>JEERA RICE</h4>
-                                                <p>It is a popular dish in North Indian cuisine and is loved for its fragrant aroma and subtle flavor.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/EGG FRIED RICE.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 150.00</div>
-                                            <div class="text-content">
-                                                <h4>EGG FRIED RICE</h4>
-                                                <p> It is a simple and flavorful dish that can be made quickly with leftover rice and a few basic ingredients.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/CASHEW FRIED RICE.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 200.00</div>
-                                            <div class="text-content">
-                                                <h4>CASHEW FRIED RICE</h4>
-                                                <p>Cashew fried rice is a rich and flavorful dish that can be enjoyed on its own or as a side dish with a variety of Indian curries and gravies.</p>
-                                            </div>
-                                        </div>
-                                    </div><div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/CURD RICE.jpg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 70.00</div>
-                                            <div class="text-content">
-                                                <h4>CURD RICE</h4>
-                                                <p>Curd rice is served cold and is a perfect dish for hot summer days as it is refreshing and easy to digest.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/MEALS.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 120.00</div>
-                                            <div class="text-content">
-                                                <h4>MEALS</h4>
-                                                <p>Meals can refer to any complete, balanced, and nutritious food served for  lunch or dinner. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="night-menu">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="night-menu-content">
-                        <div class="row">
-                            <div class="middle">
-                                <h2>DINNER MENU</h2>
-                                <div id="owl-night" class="owl-carousel owl-theme">
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/PANNER BUTTER MASALA.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 200.00</div>
-                                            <div class="text-content">
-                                                <h4>PANNER BUTTER MASALA</h4>
-                                                <p>Paneer butter masala is typically served with naan, roti, or rice and is a popular vegetarian option in Indian restaurants.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/KAJU CURRY.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 200.00</div>
-                                            <div class="text-content">
-                                                <h4>KAJU CURRY</h4>
-                                                <p>Kaju curry is a North Indian vegetarian dish made with cashews cooked in a creamy and spicy tomato-based gravy.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item col-md-12">
-                                        <div class="food-item">
-                                            <img src="img/METHI CHAMAN.jpeg" alt="" style="width:500px;height:260px;">
-                                            <div class="price">Rs 200.00</div>
-                                            <div class="text-content">
-                                                <h4>METHI CHAMAN</h4>
-                                                <p>Methi chaman is a vegetarian dish from the Indian region of Kashmir that is made with paneer (cottage cheese) and fenugreek leaves (methi).</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="food-item">
-                                        <img src="img/MUSHROOM CURRY.jpeg" alt="" style="width:500px;height:260px;">
-                                        <div class="price">Rs 200.00</div>
-                                        <div class="text-content">
-                                            <h4>MUSHROOM CURRY</h4>
-                                            <p>Mushroom curry is a vegetarian dish made with mushrooms cooked in a flavorful sauce.</p>
-                                        </div>
-                                    </div>
-                                    <div class="food-item">
-                                        <img src="img/PALAK PANNER.jpeg" alt="" style="width:500px;height:260px;">
-                                        <div class="price">Rs 200.00</div>
-                                        <div class="text-content">
-                                            <h4>PALAK PANNER</h4>
-                                            <p>Palak paneer is a vegetarian dish from the Indian subcontinent that consists of paneer (cottage cheese) in a creamy spinach (palak) sauce.</p>
-                                        </div>
-                                    </div>
-                                    <div class="food-item">
-                                        <img src="img/KAJU TOMATO.jpeg" alt="" style="width:500px;height:260px;">
-                                        <div class="price">Rs 180.00</div>
-                                        <div class="text-content">
-                                            <h4>KAJU TOMATO</h4>
-                                            <p> The cashew paste is added to the sauce and simmered for a few more minutes until the sauce is thick and creamy.</p>
-                                        </div>
-                                    </div>
-                                    <div class="food-item">
-                                        <img src="img/JAIPURI.jpeg" alt="" style="width:500px;height:260px;">
-                                        <div class="price">Rs 160.00</div>
-                                        <div class="text-content">
-                                            <h4>JAIPURI</h4>
-                                            <p>Jaipuri is a dish from the Rajasthan region of India that is known for its rich and spicy flavors. </p>
-                                        </div>
-                                    </div>
-                                    <div class="food-item">
-                                        <img src="img/PALAK.jpeg" alt="" style="width:500px;height:260px;">
-                                        <div class="price">Rs 120.00</div>
-                                        <div class="text-content">
-                                            <h4>PALAK</h4>
-                                            <p>Palak, also known as saag or spinach, is a popular ingredient in Indian cuisine and is often used in a variety of dishes.</p>
-                                        </div>
-                                    </div>
-                                    <div class="food-item">
-                                        <img src="img/EGG PORUTU.jpeg" alt="" style="width:500px;height:260px;">
-                                        <div class="price">Rs 130.00</div>
-                                        <div class="text-content">
-                                            <h4>EGG PORUTU</h4>
-                                            <p>Egg porutu is a popular South Indian breakfast dish made with eggs and spices.</p>
-                                        </div>
-                                    </div>
-                                    <div class="food-item">
-                                        <img src="img/EGG KEEMA.jpeg" alt="" style="width:500px;height:260px;">
-                                        <div class="price">Rs 130.00</div>
-                                        <div class="text-content">
-                                            <h4>EGG KEEMA</h4>
-                                            <p>Egg keema is a dish made with ground or minced boiled eggs cooked with spices and vegetables. </p>
-                                        </div>
-                                    </div>
-                                    <div class="food-item">
-                                        <img src="img/EGG CURRY.jpeg" alt="" style="width:500px;height:260px;">
-                                        <div class="price">Rs 130.00</div>
-                                        <div class="text-content">
-                                            <h4>EGG CURRY</h4>
-                                            <p>Egg curry is a popular Indian dish made with boiled eggs cooked in a spicy and flavorful tomato-based gravy. </p>
-                                        </div>
-                                    </div>
-                                    <div class="food-item">
-                                        <img src="img/TOMOTO CURRY.jpeg" alt="" style="width:500px;height:260px;">
-                                        <div class="price">Rs 120.00</div>
-                                        <div class="text-content">
-                                            <h4>TOMOTO CURRY</h4>
-                                            <p>Tomato curry is a simple and flavorful dish made with ripe tomatoes cooked in a spicy and tangy sauce.</p>
-                                        </div>
-                                    </div>
-                                    <div class="food-item">
-                                        <img src="img/PULKA.jpeg" alt="" style="width:500px;height:260px;">
-                                        <div class="price">Rs 10.00</div>
-                                        <div class="text-content">
-                                            <h4>PULKA</h4>
-                                            <p>Pulka is a type of Indian bread that is similar to roti or chapati.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <a href="menu.html">
+                        <img src="img/cook_dessert.png" alt="Desserts">
+                        <h4>cafe</h4>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -625,12 +148,12 @@
                         <h2>Book Your Table Now</h2>
                     </div>
                 </div>
-                <div class="col-md-4 col-md-offset-2">
+                <div class="col-md-4 col-md-offset-2 col-sm-12">
                     <div class="left-image">
                         <img src="img/book_left_image.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12">
                     <div class="right-info">
                         <h4>Reservation</h4>
                         <form id="form-submit" action="" method="get">
@@ -701,15 +224,149 @@
 
 
 
+    
+
+
+    <section class="featured-food">
+        <div class="container">
+            <div class="row">
+                <div class="heading">
+                    <h2>Weekly Featured Food</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="food-item">
+                        <h2>Breakfast</h2>
+                        <img src="img/DOSA.jpeg" alt="" style="width:500px;height:260px;">
+                        <div class="price">Rs 40.00</div>
+                        <div class="text-content">
+                            <h4>DOSA</h4>
+                            <p>Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean shorts hexagon street art knausgaard wolf...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="food-item">
+                        <h2>Lunch</h2>
+                        <img src="img/CHICKEN DILKUSH BIRYANI.jpeg" alt="" style="width:500px;height:260px;">
+                        <div class="price">Rs 270.00</div>
+                        <div class="text-content">
+                            <h4>CHICKEN DILKUSH BIRYANI</h4>
+                            <p>Chicken Dilkush Biryani is a popular biryani variety from the South Indian state of Tamil Nadu.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="food-item">
+                        <h2>Dinner</h2>
+                        <img src="img/KAJU CURRY.jpeg" alt="" style="width:500px;height:260px;">
+                        <div class="price">Rs 200.00</div>
+                        <div class="text-content">
+                            <h4>KAJU CURRY</h4>
+                            <p>Kaju curry is a North Indian vegetarian dish made with cashews cooked in a creamy and spicy tomato-based gravy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="our-blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2>Our reviews</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="blog-post">
+                        <img src="img/BLOG_1.jpg" alt="" style="width:275px;height:250px;">
+                        <div class="date">14 APR 2023</div>
+                        <div class="right-content">
+                            <h4>By Tumati Vijendra Babu</h4>   
+                            <p>We had taken Super tasty food</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="blog-post">
+                        <img src="img/BLOG_2.png" alt="" style="width:275px;height:250px;">
+                        <div class="date">21 APR 2023</div>
+                        <div class="right-content">
+                            <h4>Paul Reinhard</h4>
+                            <p>I am an American.  They welcomed me, cooked food with just the right level of spice, had a nice enclosed and air conditioned eating area.  I would eat here again any time.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="blog-post">
+                        <img src="img/BLOG_3.PNG" alt="" style="width:275px;height:250px;">
+                        <div class="date">11 Oct 2022</div>
+                        <div class="right-content">
+                            <h4>NAGESHBABU REDDI</h4>
+                            <p>Good place for dine in on the move. Tasty food at reasonable prices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="blog-post">
+                        <img src="img/BLOG_4.jpg" alt="" style="width:275px;height:250px;">
+                        <div class="date">03 Oct 2021</div>
+                        <div class="right-content">
+                            <h4>RAVI TAJA GUPTHA</h4>
+                            <p>Good food order meals with chicken good place for food... if your travelling towards srisailam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="sign-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2>Signup for our further updates</h2>
+                    </div>
+                </div>
+            </div>
+            <form id="contact" action="" method="get">
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-3">
+                        <fieldset>
+                            <input name="email" type="text" class="form-control" id="email" placeholder="Enter your email here..." required="">
+                        </fieldset>
+                    </div>
+                    <div class="col-md-2">
+                        <fieldset>
+                            <button type="submit" id="form-submit" class="btn">Send Message</button>
+                        </fieldset>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <p>Copyright &copy; 2030 HOTAL RAMASWAMI</p>
+                    <p>Copyright &copy; 2025 HOTEL RAMASWAMI</p>
                 </div>
                 <div class="col-md-4">
                     <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a rel="nofollow" href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="#"><i class="fa fa-rss"></i></a></li>
@@ -717,7 +374,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <p>Design: NAVEEN</p>
+                    <p>Design: NAVEEN CHOWDARY</p>
                 </div>
             </div>
         </div>
@@ -731,7 +388,6 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
-<!--    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>	-->
     <script type="text/javascript">
     $(document).ready(function() {
         // navigation click actions 
